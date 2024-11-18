@@ -7,3 +7,5 @@
 npx expo start
 
 npx expo install expo-checkbox
+
+npm install @react-navigation/native
