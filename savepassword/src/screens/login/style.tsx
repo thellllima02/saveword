@@ -20,7 +20,28 @@ const styles = StyleSheet.create({
             marginTop: 50,
             flexDirection: 'row',
             marginRight: 130
+        },passwordContainer: {
+            flexDirection: 'row',
+            alignItems: 'center',
+            borderWidth: 1,
+            borderColor: '#ccc',
+            borderRadius: 8,
+            paddingHorizontal: 10,
+            marginTop: 10,
+        },
+        passwordInput: {
+            flex: 1,
+            paddingVertical: 10,
+        },
+        eyeIcon: {
+            padding: 10,
+        },
+        errorText: {
+            color: 'red',
+            fontSize: 14,
+            marginTop: 5,
         }
+        
 
 });
 
